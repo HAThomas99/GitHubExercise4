@@ -16,10 +16,15 @@ public class GitHubExercise4 {
      */
     public static void main(String[] args) {
         printName();
+        henryEditz();
     }
     
     public static void printName(){
         System.out.println("My name is Hunter Earley and this is my statement");
+    }
+    
+    public static void henryEditz(){
+        System.out.println("Henry Thomas was here.");
     }
     
 }
