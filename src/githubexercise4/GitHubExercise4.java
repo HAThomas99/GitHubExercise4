@@ -16,10 +16,16 @@ public class GitHubExercise4 {
      */
     public static void main(String[] args) {
         printName();
+        printLoop();
     }
     
     public static void printName(){
         System.out.println("My name is Hunter Earley and this is my statement");
     }
     
+    public static void printLoop(){
+        for(int x = 0; x <= 10; x++){
+            System.out.println("| " + x + "|");
+        }
+    }
 }
